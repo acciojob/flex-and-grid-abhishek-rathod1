@@ -1,19 +1,21 @@
 /*  your css code here. If applicable */
-.container{
+.cards-wrapper{
 	display: grid;
-	grid-template-columns: 100px 100px 100px;
+	grid-template-columns: 200px 200px 200px;
 	grid-template-rows: auto;
 	grid-gap: 10px;
 	
 }
-
-.card{
-	border: 1px solid #ccc;
+body{
 	background-color: #fafafa;
 }
+.card{
+	border: 10px solid #ccc;
+	/* background-color: #fafafa; */
+}
 .card h1{
-	font-size: 1.5em;
+	font-size: 36px;
 }
 .card p{
-	font-size: 0.75em;
+	font-size: 18px;
 }
